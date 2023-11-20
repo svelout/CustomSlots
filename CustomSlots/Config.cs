@@ -9,7 +9,7 @@ namespace CustomSlots
         public bool Debug { get; set; } = false;
 
         [Description("Разрешение на использование команды")]
-        public string AccsesToCommandPermission { get; set; } = "server.changeslots";
+        public string AccsesToCommandPermission { get; set; } = "KrisPrs";
 
         [Description("Стандартное количество слотов на вашем сервере")]
         public int DefaultCountSlots { get; set; } = 20;
